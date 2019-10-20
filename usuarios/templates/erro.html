@@ -1,0 +1,9 @@
+{% extends 'base_usuario.html' %}
+
+{% block body %}
+
+    <div class="alert alert-danger">Você não tem permissão para fazer convites</div>
+
+    <a href=" {% url 'index' %} ">Voltar para o início</a>
+
+{% endblock %}
