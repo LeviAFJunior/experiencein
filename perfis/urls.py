@@ -6,6 +6,5 @@ urlpatterns = [
 	path('perfis/<int:perfil_id>', views.exibir, name='exibir'),
 	# re_path(r'^perfis/\d+$', views.exibir, name='perfis')
 	path('perfis/<int:perfil_id>/convidar', views.convidar, name='convidar'),
-	path('convite/<int:convite_id>/aceitar', views.aceitar, name='aceitar'),
-#	path('erro_has_no_perm/', views.sem_permissao, name='erro')
+	path('convite/<int:convite_id>/aceitar', views.aceitar, name='aceitar')
 ]
